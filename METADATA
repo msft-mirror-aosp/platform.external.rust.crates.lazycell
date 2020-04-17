@@ -1,0 +1,19 @@
+name: "lazycell"
+description: "Rust library providing a lazily filled Cell."
+third_party {
+  url {
+    type: HOMEPAGE
+    value: "https://crates.io/crates/lazycell"
+  }
+  url {
+    type: GIT
+    value: "https://github.com/indiv0/lazycell"
+  }
+  version: "1.2.1"
+  license_type: NOTICE
+  last_upgrade_date {
+    year: 2020
+    month: 3
+    day: 31
+  }
+}
