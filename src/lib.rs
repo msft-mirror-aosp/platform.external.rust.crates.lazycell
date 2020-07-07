@@ -44,10 +44,9 @@
 //! coordination in a thread-safe fashion. The limitation of an `AtomicLazyCell`
 //! is that after it is initialized, it can't be modified.
 
-
-#[cfg(not(test))]
+// ANDROID: Unconditionally use std to allow building as a dylib.
 #[macro_use]
-extern crate core as std;
+extern crate std;
 
 use std::cell::UnsafeCell;
 use std::mem;
