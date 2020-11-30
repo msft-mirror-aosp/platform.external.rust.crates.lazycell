@@ -1,5 +1,5 @@
 name: "lazycell"
-description: "Rust library providing a lazily filled Cell."
+description: "A library providing a lazily filled Cell struct"
 third_party {
   url {
     type: HOMEPAGE
