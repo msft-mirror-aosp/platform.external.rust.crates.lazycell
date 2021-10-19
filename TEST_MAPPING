@@ -5,6 +5,9 @@
       "name": "keystore2_test"
     },
     {
+      "name": "lazycell_device_test_src_lib"
+    },
+    {
       "name": "legacykeystore_test"
     },
     {
